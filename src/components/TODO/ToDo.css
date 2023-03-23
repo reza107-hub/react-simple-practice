@@ -1,0 +1,20 @@
+.single-to-do{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.completed{
+    color: blueviolet;
+    font-weight: bold;
+}
+.to-do-style{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4,1fr);
+}
+@media screen and (max-width:600px) {
+    .to-do-style{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

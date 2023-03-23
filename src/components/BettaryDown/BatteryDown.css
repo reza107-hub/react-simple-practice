@@ -1,0 +1,8 @@
+.bettary{
+    background-color: blueviolet;
+    color: aliceblue;
+
+}
+.bettary:hover{
+    background-color: rgb(75, 52, 96);
+}
