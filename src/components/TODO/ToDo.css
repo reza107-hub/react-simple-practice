@@ -13,6 +13,10 @@
     gap: 25px;
     grid-template-columns: repeat(4,1fr);
 }
+.show-more{
+    background-color: blueviolet;
+    color: aliceblue;
+}
 @media screen and (max-width:600px) {
     .to-do-style{
         grid-template-columns: repeat(1,1fr);
